@@ -137,4 +137,21 @@ _testmain.go
 #*.mp4
 #*.png
 #*.jpeg
-*.psd
+*.
+
+# Mac
+.DS_Store
+
+# Nó
+npm-debug.log
+/ node_modules
+
+# Cordova
+/ plataformas
+/ plugins
+
+# res
+recursos / assinatura
+jsconfig.json
+.vscode /
+tipografias /
