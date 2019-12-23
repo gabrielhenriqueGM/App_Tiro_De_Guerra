@@ -1,60 +1,95 @@
 <!DOCTYPE html>
-<!--
-    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
 
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
-    <!-- Good default declaration:
-    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-        * Enable inline JS: add 'unsafe-inline' to default-src
-        * Enable eval(): add 'unsafe-eval' to default-src
-    * Create your own at http://cspisawesome.com
-    -->
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <meta http-equiv="Content-Security-Policy" content="'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" >
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <title>Hello World</title>
 </head>
 
-<body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
-        </div>
+<body class="">
+
+
+  <!--nav onde tem o logo-->
+  <nav class="navbar navbar-dark pt-0 mt-0 corCamufladoVerde">
+    <a class="navbar-brand mx-auto" href="#">
+      <img src="img/organization_logo.gif" width="70" height="70" alt="">
+    </a>
+  </nav>
+  <!-------------------------------nave onde tem o botao dropdown--------------------------------------->
+  <nav class="navbar navbar-dark corCamufladoVerde">
+    <button class="navbar-toggler mb-1 ml-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <!--um arquivo svg referente ao icone do botao dropdown (obs: no meu celular nao aparece o icon do boostrap, so funcionou com esse svg)-->
+      <svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M4.5 13.5A.5.5 0 015 13h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 9h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 5h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+      </svg>
+
+    </button>
+
+    <!--icon de compartilhar o app-->
+    <img src="img/share.png" width="30" height="30">
+
+    <!--droplist do botao dropdown-->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <hr>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link pt-0" href="#">Avalie Nosso Aplicativo!<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sugestões</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Desenvolvedores</a>
+        </li>
+      </ul>
+
     </div>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
+  </nav>    
+
+<!--opcoes do menu-->
+<div class="container text-center p-5 mt-5 px-0">
+  <div class="row">
+      <div class="col-4">xxxxxxx</div>
+      <div class="col-4">xxxxxxx</div>
+      <div class="col-4">xxxxxxx</div>
+  </div>
+</div>
+<div class="container text-center p-5">
+  <div class="row">
+      <div class="col-4">xxxxxxx</div>
+      <div class="col-4">xxxxxxx</div>
+      <div class="col-4">xxxxxxx</div>
+  </div>
+</div>
+<div class="container text-center p-5">
+  <div class="row">
+      <div class="col-4">xxxxxxx</div>
+      <div class="col-4">xxxxxxx</div>
+      <div class="col-4">xxxxxxx</div>
+  </div>
+</div>
+<nav class="navbar navbar-dark corCamufladoVerde p-5 mt-5" width="70" height="70">
+    <a class="navbar-brand mx-auto" href="#">
+    
+    </a>
+  </nav>
+  <!--Bibliotecas-->
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+  <script type="text/javascript">
+    app.initialize();
+  </script>
 </body>
 
 </html>
