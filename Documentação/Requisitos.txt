@@ -1,0 +1,83 @@
+Escopo o Sistema
+	O sistema deve propor o material usado nas intruções para
+servir de fonte de consulta e/ou material de estudo prévio à
+intrução, mantendo os AT's dos TG's conhecedor dos devidos assuntos.
+
+
+Requisitos Funcionais
+	RF01 - O sistema deve realizar uma conversão básico de Passos Duplos para Metro.
+		RF01.1 - passoDuplo ≅ 100m ∴  passoDuploParaPercorrer = (distancia*passoDuplo)/100m.
+
+			Regra de 3 simples:
+		             passoDuplo  ----  100m
+		passoDuploParaPercorrer	 ----  distancia
+
+Requisitos Não Funcionais
+	RNF01 - O App deve ter conteúdos sobre as intruções de TG.
+		RNF01.1 - Peças e Funcionamento do MQ762 M968.
+		RNF01.2 - Postos e Graduações.
+		RNF01.3 - Patronos do EB.
+		RNF01.4 - Símbolo Nacionais.
+		RNF01.5 - Armas, Quadros e Serviços.
+		RFN01.6 - Marcha e Estacionamentos.
+		RFN01.7 - Progreção em Combate.
+		RFN01.8 - IPT (Instrução Preparatória para o Tiro).
+		RFN01.9 - Sobrevivencia na Selva.
+		RFN01.10 - Carta e Orientação.
+		RFN01.11 - Comandante do EB
+
+	RNF02 - A aplicação deve propor uma página para fazer o CRUD dos dados do usuário.
+		RNF02.1 - Nome de Guerra (Aqui eu n sei se seria interessante o nome todo).
+		RNF02.2 - Patente.
+		RNF02.3 - Passos Duplo.
+		RNF02.4 - GC.
+		RNF02.5 - PEL.
+		RNF02.6 - OM.
+		RNF02.7 - Tipo Sanguíneo.
+		RNF02.8 - Conceito do TAF.
+		RNF02.9 - RA.
+		RNF02.10 - Foto (Talvez. O que acha?).
+
+	RNF03 - O sistema deve possuir os toques de cornetas de ordem unida do EB.
+
+	RNF04 - O sistema deve possuir um a Oração do Gerreiro e as Leis de cada Região (Selva, Montanha, Caatinga, Planalto, ...).
+
+	RNF05 - O sistema deve possuir as musicas principais relativo ao EB.
+		RNF05.1 - Hino Nacional.
+		RNF05.2 - Canção do Exército.
+		RNF05.3 - Canção da Infantaria.
+		RNF05.4 - Canção do Tiro de Guerra.
+		RNF05.5 - Dobrado Batista de Melo.
+
+	RNF06 - O sistema deve possuir um menu principal em forma de grade com design e icones padronisados.
+	  Sugestão de Itens do Menu.
+		RNF06.1 - Assunto da Instrução.
+		RNF06.2 - Músicas Oficiais.
+		RNF06.3 - Canção TFM.
+		RNF06.4 - Toques de Corneta.
+		RNF06.5 - Alistamento.
+		RNF06.6 - Dissionário Bizu. (Dicionários das palavras usadas. Ex.: Sanhaço, Bizu, Monstro, Mocorongo, ...)
+		RNF06.7 - Bússola?.
+
+	RNF07 - O sistem deve possuir link's para as midias sociais oficiais do EB.
+
+	RNF08 - O sistema deve possuir uma coleção de musicas para TFM (Se possivel com áudio).
+
+	RNF09 -
+
+
+
+Referencias:
+RNF01.2: http://www.eb.mil.br/postos-e-graduacoes/-/asset_publisher/DQlwhsMH8YR7/content/exercito?inheritRedirect=false&redirect=http%3A%2F%2Fwww.eb.mil.br%2Fpostos-e-graduacoes%3Fp_p_id%3D101_INSTANCE_DQlwhsMH8YR7%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1
+
+RNF01.3: http://www.eb.mil.br/patronos
+
+RNF01.4: http://www.eb.mil.br/simbolos
+
+RNF01.5: http://www.eb.mil.br/armas-quadros-e-servicos
+
+RNF07: https://www.youtube.com/user/CCSE1982/
+
+Algumas img's do EB: Eu não sei nada sobre os direitos autoris das img's kkkkkkk
+	1 - https://pt.wikipedia.org/wiki/Ex%C3%A9rcito_Brasileiro (Img dos Brasões)
+	2 - https://www.flickr.com/photos/exercitooficial/albums/ (Só img Top)
