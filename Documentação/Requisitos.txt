@@ -6,9 +6,9 @@ intrução, mantendo os AT's dos TG's conhecedor dos devidos assuntos.
 
 Requisitos Funcionais
 	RF01 - O sistema deve realizar uma conversão básico de Passos Duplos para Metro.
-		RF01.1 - passoDuplo ≅ 100m ∴  passoDuploParaPercorrer = (distancia*passoDuplo)/100m.
+		RF01.1 - passoDuplo ≅ 100m ∴ passoDuploParaPercorrer = (distancia*passoDuplo)/100m.
 
-			Regra de 3 simples:
+			Regra de 3 simples (todos os valores em metros):
 		             passoDuplo  ----  100m
 		passoDuploParaPercorrer	 ----  distancia
 
@@ -50,14 +50,16 @@ Requisitos Não Funcionais
 		RNF05.5 - Dobrado Batista de Melo.
 
 	RNF06 - O sistema deve possuir um menu principal em forma de grade com design e icones padronisados.
-	  Sugestão de Itens do Menu.
-		RNF06.1 - Assunto da Instrução.
+	  Sugestão de Itens do Menu (Não sei se tu reparou mas eu tentei "encher linguiça"
+	  pra completar 9 item de acordo com o template kkkkkk, da uma sugestão do pode ser colocado ou tirado).
+		RNF06.1 - Assuntos da Instrução.
 		RNF06.2 - Músicas Oficiais.
 		RNF06.3 - Canção TFM.
 		RNF06.4 - Toques de Corneta.
 		RNF06.5 - Alistamento.
 		RNF06.6 - Dissionário Bizu. (Dicionários das palavras usadas. Ex.: Sanhaço, Bizu, Monstro, Mocorongo, ...)
-		RNF06.7 - Bússola?.
+		RNF06.7 - O que é o Tiro de Guerra.
+		RNF06.8 - Bússola?.
 
 	RNF07 - O sistem deve possuir link's para as midias sociais oficiais do EB.
 
