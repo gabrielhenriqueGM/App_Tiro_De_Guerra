@@ -1,9 +1,15 @@
 /*classes para setar cor com mesmo hexadecimal do logo do tg*/
-.corCamufladoVerde{
+/*EU pesei em dar uma mudada na tag para header e footer*/
+header{
 	background-color: #3b4835;
 }
-.corCamufladoMarron{
+
+footer{
 	background-color: #513f33;
+	background-color: #3b4835;
+	height: 10vh;
+	width: 100vw;
+	z-index: 99999;
 }
 
 /*para nao ter scroll na tela do app*/
@@ -11,4 +17,8 @@ body{
 	background-color: #eaeded;
 	width: 100%;
 	position: fixed;
+}
+
+#logoTGMenu{
+	margin: 5vh 0 0 0;
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <meta http-equiv="Content-Security-Policy" content="'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" >
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <title>TG App</title>
+</head>
+
+<body class="bg-warning">
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow navbar-dark navbar-offcanvas" style="background-color: #155592;">
+        <a class="navbar-brand mr-auto" href="#">DECOM STUDIO</a>
+
+        <button class="navbar-toggler d-block" type="button" id="navToggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse offcanvas-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.youtube.com/c/decomtvs">Dashboard <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/c/decomtvs">Notifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/c/decomtvs">Profile</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="https://www.youtube.com/c/decomtvs">Action</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/c/decomtvs">Another action</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/c/decomtvs">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/c/decomtvs" target="_blank">Developer</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </nav>
+    
+    <div class="container text-center">
+ 		<h1 class="text-uppercase">www.youtube.com/decomtvs</h1>
+    </div>
+
+<!--Bibliotecas-->
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript">
+app.initialize();
+</script>
+<script type="text/javascript" src="js/sidebar.js"></script>
+</body>
+
+</html>

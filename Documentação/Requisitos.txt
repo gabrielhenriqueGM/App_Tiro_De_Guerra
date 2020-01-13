@@ -1,4 +1,4 @@
-Escopo o Sistema
+﻿Escopo o Sistema
 	O sistema deve propor o material usado nas intruções para
 servir de fonte de consulta e/ou material de estudo prévio à
 intrução, mantendo os AT's dos TG's conhecedor dos devidos assuntos.
