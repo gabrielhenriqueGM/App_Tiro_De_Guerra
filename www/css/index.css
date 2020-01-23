@@ -44,10 +44,15 @@
 	--rgba-mr-b4: rgba(30; 8; 2;1);
 }
 
+html,
+body {
+    overflow-x: hidden; /*Toda sobra laterial da tela é ocultada*/
+}
+
 /*classes para setar cor com mesmo hexadecimal do logo do tg*/
 /*Eu pesei em dar uma mudada na tag para header e footer*/
 header{
-	background-color: #3b4835;
+	background-color: #2B5422; /*Cor original #3b4835*/
 }
 
 footer{
@@ -60,9 +65,10 @@ footer{
 
 /*para nao ter scroll na tela do app*/
 body{
+	padding-top: 56px; /*Codigo do side bar*/
 	background-color: #eaeded;
-	width: 100%;
-	position: fixed;
+	/*width: 100%;
+	position: fixed;*/
 }
 
 #logoTGMenu{

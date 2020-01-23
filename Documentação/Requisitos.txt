@@ -57,7 +57,7 @@ Requisitos Não Funcionais
 		RNF06.3 - Canção TFM.
 		RNF06.4 - Toques de Corneta.
 		RNF06.5 - Alistamento.
-		RNF06.6 - Dissionário Bizu. (Dicionários das palavras usadas. Ex.: Sanhaço, Bizu, Monstro, Mocorongo, ...)
+		RNF06.6 - Dicionário Bizu. (Dicionários das palavras usadas. Ex.: Sanhaço, Bizu, Monstro, Mocorongo, ...)
 		RNF06.7 - O que é o Tiro de Guerra.
 		RNF06.8 - Bússola?.
 
