@@ -1,5 +1,51 @@
+/*FALA MANO, eu usei um root pra fazer variaveis css pra ficar melhor de editar
+	eu Contrui em um site https://paletton.com/#uid=32L0c0knQ7Tj6cHlpaeq-5KtH3O
+	ele eh muito bom, recomento.
+*/
+:root{
+	--vd-0: #14340D; /* Cor principal principal */
+	--vd-1: #2B5422;
+	--vd-2: #1E4417;
+	--vd-3: #0C2606;
+	--vd-4: #061902;
+
+	--mr-a0: #380E1C; /* Cor secundária principal (1) */
+	--mr-a1: #5A2435;
+	--mr-a2: #481827;
+	--mr-a3: #290712;
+	--mr-a4: #1B020A;
+
+	--mr-b0: #3F1910; /* Cor secundária principal (2) */
+	--mr-b1: #653429;
+	--mr-b2: #51251B;
+	--mr-b3: #2E0F08;
+	--mr-b4: #1E0802;
+
+
+
+	/* Como códigos RGBa */
+
+	--rgbs-vd-0: rgba(20; 52; 13;1); /* Cor principal principal */
+	--rgbs-vd-1: rgba(43; 84; 34;1);
+	--rgbs-vd-2: rgba(30; 68; 23;1);
+	--rgbs-vd-3: rgba(12; 38; 6;1);
+	--rgbs-vd-4: rgba(6; 25; 2;1);
+
+	--rgba-mr-a0: rgba(56; 14; 28;1); /* Cor do secundário principal (1) */
+	--rgba-mr-a1: rgba(90; 36; 53;1);
+	--rgba-mr-a2: rgba(72; 24; 39;1);
+	--rgba-mr-a3: rgba(41; 7; 18;1);
+	--rgba-mr-a4: rgba(27; 2; 10;1);
+
+	--rgba-mr-b0: rgba(63; 25; 16;1); /* Cor do secundário principal (2) */
+	--rgba-mr-b1: rgba(101; 52; 41;1);
+	--rgba-mr-b2: rgba(81; 37; 27;1);
+	--rgba-mr-b3: rgba(46; 15; 8;1);
+	--rgba-mr-b4: rgba(30; 8; 2;1);
+}
+
 /*classes para setar cor com mesmo hexadecimal do logo do tg*/
-/*EU pesei em dar uma mudada na tag para header e footer*/
+/*Eu pesei em dar uma mudada na tag para header e footer*/
 header{
 	background-color: #3b4835;
 }

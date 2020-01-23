@@ -16,7 +16,7 @@ body {
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: /*#343a40*//*#f8f9fa*/#155592;
+    background-color: /*#343a40*//*#f8f9fa*/val(--vd-2);
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     transition-property: left, visibility;
