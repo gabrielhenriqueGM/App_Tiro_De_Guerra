@@ -45,7 +45,7 @@
 }
 
 html,
-body {
+body, * {
     overflow-x: hidden; /*Toda sobra laterial da tela é ocultada*/
 }
 

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <meta http-equiv="Content-Security-Policy" content="'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" >
+  
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />  
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <title>TG App</title>
+</head>
+
+<body class="">
+	<header>
+		<!--========= Side bar  ===========-->
+		<nav class="navbar navbar-expand-lg fixed-top shadow navbar-dark navbar-offcanvas" style="background-color: #14340D;">
+			<a class="navbar-brand mr-auto" href="#">APP TG BIZU</a>
+	
+			<button class="navbar-toggler d-block" type="button" id="navToggle">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="navbar-collapse offcanvas-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="">Dashboard <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Notifications</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Profile</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown01">
+							<a class="dropdown-item" href="">Action</a>
+							<a class="dropdown-item" href="">Another action</a>
+							<a class="dropdown-item" href="">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="" target="_blank">Developer</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--========= fim side bar ==========-->
+
+
+		<!--nav onde tem o logo-->
+		<nav class="navbar navbar-dark pt-0 mt-0 corCamufladoVerde">
+			<a class="navbar-brand mx-auto" href="#">
+			<img id="logoTGMenu" src="img/organization_logo.gif" width="70" height="70" alt="">
+			</a>
+		</nav>
+		
+		<!-------------------------------nave onde tem o botao dropdown--------------------------------------->
+		<nav class="navbar navbar-dark corCamufladoVerde">
+			<button class="navbar-toggler mb-1 ml-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
+			<!--um arquivo svg referente ao icone do botao dropdown (obs: no meu celular nao aparece o icon do boostrap, so funcionou com esse svg)-->
+			<svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" d="M4.5 13.5A.5.5 0 015 13h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 9h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-4A.5.5 0 015 5h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+			</svg>
+			</button>
+
+			<!--icon de compartilhar o app-->
+			<img src="img/share.png" width="30" height="30">
+
+			<!--droplist do botao dropdown-->
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<hr>
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link pt-0" href="#">Avalie Nosso Aplicativo!<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sugestões</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Desenvolvedores</a>
+					</li>
+				</ul>
+			</div>
+		</nav>    
+	</header>
+
+	<section id="mesa">
+		<!--opcoes do menu-->
+		<div class="container text-center p-5 mt-5 px-0">
+			<div class="row">
+				<div class="col-4">Intruções</div>
+				<div class="col-4">MÚsicas Oficiais</div>
+				<div class="col-4">Canções TFM</div>
+			</div>
+		</div>
+
+		<div class="container text-center p-5">
+		<div class="row">
+			<div class="col-4">Toques de Corneta</div>
+			<div class="col-4">Carreira Militar</div>
+			<div class="col-4">Dicionário de Gírias</div>
+		</div>
+		</div>
+
+		<div class="container text-center p-5">
+		<div class="row">
+			<div class="col-4">O que é o TG</div>
+			<div class="col-4">Bússola</div>
+		</div>
+		</div>
+		<nav class="navbar navbar-dark corCamufladoVerde p-5 mt-5" width="70" height="70">
+			<a class="navbar-brand mx-auto" href="#">LINK</a>
+		</nav>
+	</section>
+  <!--Bibliotecas-->
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    app.initialize();
+  </script>
+  <script type="text/javascript" src="js/sidebar.js"></script>
+</body>
+
+</html>
