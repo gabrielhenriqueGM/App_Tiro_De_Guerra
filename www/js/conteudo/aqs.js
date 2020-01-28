@@ -1,6 +1,6 @@
 var arma = [
 	{
-		tipo: 'arma';
+		tipo: 'arma',
 		titulo: 'Infantaria',
 		iconeSrc: 'img/armas/infantaria.png',
 		txt: `<p>
@@ -30,7 +30,7 @@ var arma = [
 		</p>`
 	},
 	{
-		tipo: 'arma';
+		tipo: 'arma',
 		titulo: 'Cavalaria',
 		iconeSrc: 'img/armas/cavalaria.png',
 		txt: `<p>
@@ -46,7 +46,7 @@ var arma = [
 			Após as reformas de 1908/15 e a influência da Missão Francesa (1921), nossa Cavalaria foi alvo de profundas modificações, que se intensificaram a partir da década de 1960, com o Acordo Militar Brasil-Estados Unidos. Esse acordo possibilitou à Cavalaria brasileira dotar seus regimentos com os mais modernos materiais blindados da América do Sul da época.
 		</p>
 		<p>
-			Hoje, temos três regimentos de Cavalaria de Guarda (Porto Alegre, Rio de Janeiro e Brasília); brigadas de Cavalaria Mecanizada e Blindada; regimentos de Cavalaria Mecanizado nas divisões de exército e regimentos de carros de combate nas brigadas de Infantaria Blindada. A Força adquiriu novos carros de combate, os blindados M 60 A3 TTS, norte-americano, e o Leopard 1A1, alemão, de procedência belga, dando seguimento à modernização da Cavalaria brasileira.
+			Hoje, temos três regimentos de Cavalaria de Guarda (Porto Alegre, Rio de Janeiro e Brasília), brigadas de Cavalaria Mecanizada e Blindada, regimentos de Cavalaria Mecanizado nas divisões de exército e regimentos de carros de combate nas brigadas de Infantaria Blindada. A Força adquiriu novos carros de combate, os blindados M 60 A3 TTS, norte-americano, e o Leopard 1A1, alemão, de procedência belga, dando seguimento à modernização da Cavalaria brasileira.
 		</p>
 		<p>
 			"Não obstante a crescente complexidade do campo de batalha moderno, onde o império da alta tecnologia dinamiza a integração dos sistemas operacionais do campo de batalha, as Forças Blindadas ainda permanecem um fator decisivo no combate, graças às suas características cada vez mais aperfeiçoadas de mobilidade, potência de fogo, proteção blindada e comunicações amplas e flexíveis. Modernização, desenvolvimento de uma doutrina de emprego eficaz e adestramento duro e realístico dessas forças constituem motivo de constante preocupação e elevada prioridade para todos os exércitos do mundo". 
@@ -56,14 +56,14 @@ var arma = [
 		</p>`
 	},
 	{
-		tipo: 'arma';
+		tipo: 'arma',
 		titulo: 'Artilharia',
 		iconeSrc: 'img/armas/artilharia.png',
 		txt: `<p>
 			A Artilharia de Campanha é o principal meio de apoio de fogo da Força Terrestre. Suas unidades e subunidades podem ser dotadas de canhões, obuses, foguetes ou mísseis. Tem por missão apoiar a arma-base pelo fogo, destruindo ou neutralizando os alvos que ameacem o êxito da operação. A artilharia antiaérea, componente terrestre da defesa aeroespacial ativa, realiza a defesa antiaérea de forças, instalações ou áreas. A artilharia de costa participa da defesa contra operações navais inimigas em áreas marítimas próximas ao litoral ou em águas interiores. Suas características são a precisão e a rapidez, para destruir ou neutralizar as instalações, os equipamentos e as tropas inimigas localizadas em profundidade no campo de batalha.
 		</p>
 		<p>
-			“É com fogo que se ganham as batalhas; logo, aumente sua Artilharia !” Frederico, o Grande
+			“É com fogo que se ganham as batalhas, logo, aumente sua Artilharia !” Frederico, o Grande
 		</p>
 		<p>
 			A Artilharia brasileira tem lugar de destaque em nossa memorável história militar. No século XIX, tendo à frente seu insigne patrono, o marechal Mallet, foi fundamental para a vitória dos aliados na Campanha da Tríplice Aliança. No século passado, integrando a Força Expedicionária Brasileira (FEB) na II Guerra Mundial, apoiou, com denodo e precisão, todas as operações da FEB.
@@ -72,7 +72,7 @@ var arma = [
 			Nos dias de hoje, acompanhando a evolução dos tempos, organiza-se em três ramos: de Campanha, Antiaérea e de Costa. Possui uma gama variada de materiais, que equipam suas organizações militares, para o cumprimento das missões de apoiar pelo fogo as Armas-bases, realizar a defesa antiaérea e defender a costa. Além disso, vem aperfeiçoando, com o apoio da informática, seu Sistema de Levantamento Topográfico, Busca de Alvos, Observação e Direção de Tiro.
 		</p>
 		<p>
-			Ao lado de armamentos que há várias décadas são dotações de nossas organizações militares de Artilharia, observam-se equipamentos que possibilitam novos padrões de eficiência operacional à Arma. Destacam-se o Obuseiro 105 mm/C 14 M56, orgânico das unidades de Artilharia das brigadas de grande mobilidade, como a Paraquedista e a Leve; o sistema Astros II de saturação de fogos, empregadas pelas unidades de Artilharia de Costa; o Obuseiro 105mm L118 Light Gun e a VBOAP M 109 A3, que vêm ampliando a profundidade do apoio de fogo da Artilharia de Campanha; e o os modernos mísseis IGLA, para a Artilharia Antiaérea.
+			Ao lado de armamentos que há várias décadas são dotações de nossas organizações militares de Artilharia, observam-se equipamentos que possibilitam novos padrões de eficiência operacional à Arma. Destacam-se o Obuseiro 105 mm/C 14 M56, orgânico das unidades de Artilharia das brigadas de grande mobilidade, como a Paraquedista e a Leve, o sistema Astros II de saturação de fogos, empregadas pelas unidades de Artilharia de Costa, o Obuseiro 105mm L118 Light Gun e a VBOAP M 109 A3, que vêm ampliando a profundidade do apoio de fogo da Artilharia de Campanha, e o os modernos mísseis IGLA, para a Artilharia Antiaérea.
 		</p>
 		<p>
 			A preocupação do Exército em incrementar seus meios de apoio de fogo demonstra bem a importância da Artilharia no campo de batalha. Seu papel, como no passado, continua inquestionável e fundamental.
@@ -82,7 +82,7 @@ var arma = [
 		</p>`
 	},
 	{
-		tipo: 'arma';
+		tipo: 'arma',
 		titulo: 'Engenharia',
 		iconeSrc: 'img/armas/engenharia.png',
 		txt: `<p>
@@ -108,7 +108,7 @@ var arma = [
 		</p>`
 	},
 	{
-		tipo: 'arma';
+		tipo: 'arma',
 		titulo: 'Comunicações',
 		iconeSrc: 'img/armas/comunicacoes.png',
 		txt: `<p>
@@ -192,7 +192,7 @@ var quadro = [
 	},
 	{
 		tipo: 'Quadro',
-		titulo: 'Engenheiros Militares';
+		titulo: 'Engenheiros Militares',
 		sigla: 'QEM',
 		iconeSrc: 'img/armas/qem.jpg',
 		txt: `<p>
@@ -219,7 +219,7 @@ var quadro = [
 	},
 	{
 		tipo: 'Quadro',
-		titulo: 'Auxiliar de Oficiais';
+		titulo: 'Auxiliar de Oficiais',
 		sigla: 'QAO',
 		iconeSrc: 'img/armas/qao.png',
 		txt: `<p>
@@ -235,7 +235,7 @@ var quadro = [
 			O Quadro Auxiliar de Oficiais (QAO) foi criado pelo Decreto Presidencial nº 84.333, de 20 de dezembro de 1979. Seus integrantes destacam-se, essencialmente, pelo termo "experiência". São ex-praças oriundos de Armas, Quadros e Serviços, hoje tenentes e capitães.
 		</p>
 		<p>
-			Essa distinção é fruto de reconhecimento de méritos incontestáveis; é respaldada por destacadas qualidades pessoais e pelo profissionalismo evidenciado diuturnamente por esses militares, e pelo apego a uma vida que exige espírito de sacerdócio e inabalável vocação castrense.
+			Essa distinção é fruto de reconhecimento de méritos incontestáveis, é respaldada por destacadas qualidades pessoais e pelo profissionalismo evidenciado diuturnamente por esses militares, e pelo apego a uma vida que exige espírito de sacerdócio e inabalável vocação castrense.
 		</p>
 		<p>
 			Os oficiais QAO exercem diferentes funções em atividades das áreas de Administração Geral, Material Bélico, Músico, Topógrafo, Serviço de Saúde e Auxiliar de Estado-Maior Pessoal.
@@ -246,7 +246,7 @@ var quadro = [
 	},
 	{
 		tipo: 'Quadro',
-		titulo: 'Complementar de Oficiais';
+		titulo: 'Complementar de Oficiais',
 		sigla: 'QCO',
 		iconeSrc: 'img/armas/qco.png',
 		txt: `<p>
@@ -256,7 +256,7 @@ var quadro = [
 			Criado em  2 de outubro de 1989, pela Lei nº 7.831, o QCO resultou de decisão que trouxe para o Exército profissionais de ambos os sexos e diversas especialidades para emprego em atividades de natureza administrativa e complementar, incrementando, significativamente, a eficiência da atividade-meio.
 		</p>
 		<p>
-			São administradores, que racionalizam processos gerenciais; estatísticos, que assessoram seus superiores com análises de quadros do Exército; professores, que educam os jovens líderes do amanhã; profissionais de informática, que implementam vários sistemas de computação na Força Terrestre; os comunicadores sociais, que contribuem para a divulgação da imagem da Força; e ainda advogados, psicólogos, contadores e tantos outros, que vêm compartilhando, com os demais integrantes da Força, os esforços desenvolvidos em prol do cumprimento da missão constitucional do Exército.
+			São administradores, que racionalizam processos gerenciais, estatísticos, que assessoram seus superiores com análises de quadros do Exército, professores, que educam os jovens líderes do amanhã, profissionais de informática, que implementam vários sistemas de computação na Força Terrestre, os comunicadores sociais, que contribuem para a divulgação da imagem da Força, e ainda advogados, psicólogos, contadores e tantos outros, que vêm compartilhando, com os demais integrantes da Força, os esforços desenvolvidos em prol do cumprimento da missão constitucional do Exército.
 		</p>
 		<p>
 			O patrono do Quadro Complementar de Oficiais é a Cadete Maria Quitéria.
@@ -267,7 +267,7 @@ var quadro = [
 var servico = [
 	{
 		tipo: 'Serviço',
-		titulo: 'Assistência Religiosa';
+		titulo: 'Assistência Religiosa',
 		sigla: 'SAREx',
 		iconeSrc: 'img/armas/sarex.png',
 		txt: `<p>
@@ -294,7 +294,7 @@ var servico = [
 	},
 	{
 		tipo: 'Serviço',
-		titulo: 'Saúde';
+		titulo: 'Saúde',
 		sigla: '',
 		iconeSrc: 'img/armas/.png',
 		txt: `<p>
@@ -306,7 +306,7 @@ var servico = [
 	},
 	{
 		tipo: 'Serviço',
-		titulo: 'Intendencia';
+		titulo: 'Intendencia',
 		sigla: '',
 		iconeSrc: 'img/armas/intendencia.png',
 		txt: `<p>
@@ -328,10 +328,10 @@ var servico = [
 			Consta que esse simbolismo permaneceu nas legiões guerreiras de Roma. Os magistrados nomeados para cuidar das finanças militares autenticavam documentos com um sinete que tinha as características da folha do acanto. Na Ilíada, de Homero, também está registrado que, na guerra de Troia, os reis incumbiam oficiais de alta patente pela guarda e gestão dos fundos destinados ao pagamento dos soldados e das demais despesas da campanha. Esses oficiais, nos acampamentos, utilizavam a folha de acanto – por ser grande, ornamental, e, sobretudo, porque amarelava com facilidade – para identificar suas barracas. Assim, em situações emergenciais, eles eram facilmente localizados.
 		</p>
 		<p>
-			Finalmente, na França, para exercer a administração e controlar a ação dos chefes de exército, foram criados os intendentes; homens que prestavam contas diretamente ao rei. A nomeação destes, para fazer revistas nos regimentos formados, para verificar existência e quantidade de homens e equipamentos, era por escolha entre os nobres de honra ilibada e pureza comprovada. E a Intendência passou então a fazer parte do quadro do Exército no país, tendo o acanto como símbolo do caráter e perfeição moral dos que lidam com o dinheiro público.
+			Finalmente, na França, para exercer a administração e controlar a ação dos chefes de exército, foram criados os intendentes, homens que prestavam contas diretamente ao rei. A nomeação destes, para fazer revistas nos regimentos formados, para verificar existência e quantidade de homens e equipamentos, era por escolha entre os nobres de honra ilibada e pureza comprovada. E a Intendência passou então a fazer parte do quadro do Exército no país, tendo o acanto como símbolo do caráter e perfeição moral dos que lidam com o dinheiro público.
 		</p>
 		<p>
-			Em 1920, com a vinda da Missão Militar Francesa, foi criada a Intendência do Exército Brasileiro; que também ganhou como símbolo a folha de acanto.
+			Em 1920, com a vinda da Missão Militar Francesa, foi criada a Intendência do Exército Brasileiro, que também ganhou como símbolo a folha de acanto.
 		</p>
 		<p>
 			Cabe ao Serviço de Intendência atender aos objetivos do Exército Brasileiro no que se refere a atividades logísticas que convergem para o planejamento correto e o provimento oportuno, nos locais determinados e nas quantidades e especificações exigidas. Respeitada e admirada por sua capacidade de trabalho, a Rainha da Logística realiza um serviço cotidiano e ininterrupto, transportando, suprindo e alimentando.

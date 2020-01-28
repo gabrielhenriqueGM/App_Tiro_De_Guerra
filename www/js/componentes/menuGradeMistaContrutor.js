@@ -9,21 +9,26 @@ function menuGradeMistaContrutor(items, tipo) {
             <div class="container text-center p-5">
                 <div class="row">`;
         }
+
+        //No onclick deve ser colocado a funcao que chamará o conteudo e mudara a tela em um novo componente
+        component += `<div class="col-4" onclick="controlador(`+items[i].link+`, '`+items[i].titulo+`')">`;
+
         switch (tipo) {
             case 'img':
-                component += `<div class="col-4">
-                    <figure class="figure">
+                component += 
+                    `<figure class="figure">
                         <img src="` + items[i].src + `" class="figure-img img-fluid rounded" alt="...">
                         <figcaption class="figure-caption">` + items[i].titulo + `</figcaption>
-                    </figure>
-                </div>`;
+                    </figure>`
                 break;
             case 'txt':
-                component += '<div class="col-4">' + items[i].titulo + '</div>';
+                component += ''+items[i].titulo;
                 break;
             default:
-                component += '<div class="col-4">' + items[i].titulo + '</div>';
+                component += ''+items[i].titulo;
         }
+
+        component += `</div>`;
     }
     if (i % 2 !== 0) {
         component += `
