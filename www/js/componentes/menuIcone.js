@@ -1,4 +1,18 @@
-function menuContrutor(items){
+/*Função que constroi menu no estilo grade (de 3 colunas) de forma altomatia
+ *Padrão de recebimento 
+ *   Obj = [
+ *      {
+ *          titulo: 'tituloDoItem',
+ *          src: 'caminhoImg'
+ *      },
+ *      {
+ *          titulo: 'tituloDoItem',
+ *          src: 'caminhoImg'
+ *      }
+ *   ]
+ * 
+*/
+function menuGradeContrutor(items){
     component = '<div class="container text-center p-5 mt-5 px-0">';
     component += '<div class="row">';
 
@@ -10,7 +24,7 @@ function menuContrutor(items){
             <div class="container text-center p-5">
                 <div class="row">`;
         }
-        component += '<div class="col-4">'+items.name[i]+'</div>';
+        component += '<div class="col-4">'+items[i].titulo+'</div>';
     }
 
     if(i%2!==0){
@@ -22,17 +36,3 @@ function menuContrutor(items){
 
     return component;
 }
-
-items = {
-    name: [
-        'Banana',
-        'Café',
-        'Jaca',
-        'Jabuticaba',
-        'Mestilo',
-        'Abacaba',
-        'Coco'
-    ]
-}
-
-console.log(menuContrutor(items));
