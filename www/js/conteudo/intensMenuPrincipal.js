@@ -2,7 +2,12 @@ var itensMenuPrincipalTitulo = `<img id="logoTGMenu" src="img/organization_logo.
 
 var itensMenuPrincipal = [
     {
-        titulo: 'Intruções',
+        titulo: 'Instruções',
+        src: '',
+        link: "menuGradeMistaContrutor(menuInstrucao)"     
+    },
+    {
+        titulo: 'Mq 7,62 M968',
         src: '',
         link: ''     
     },
@@ -38,6 +43,11 @@ var itensMenuPrincipal = [
     },
     {
         titulo: 'Bússola',
+        src: '',
+        link: ''     
+    },
+    {
+        titulo: 'Bizú do Antigão',
         src: '',
         link: ''     
     }

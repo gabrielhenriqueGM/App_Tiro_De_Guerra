@@ -18,7 +18,7 @@
 	<header>
 		<!--========= Side bar  ===========-->
 		<nav class="navbar navbar-expand-lg fixed-top shadow navbar-dark navbar-offcanvas" style="background-color: #14340D;">
-			<a class="navbar-brand mr-auto" href="#">APP TG BIZU</a>
+			<span class="navbar-brand mr-auto" href><span id="btnVoltar" onclick="backScreem()"> &#60; </span> &nbsp;TG BIZU</span>
 	
 			<button class="navbar-toggler d-block" type="button" id="navToggle">
 				<span class="navbar-toggler-icon"></span>
@@ -53,14 +53,22 @@
 		<!--========= fim side bar ==========-->
 
 		<!--nav onde tem o logo-->
-		<nav class="navbar navbar-dark pt-0 mt-0 corCamufladoVerde">
+		<!--nav class="navbar navbar-dark pt-0 mt-0 corCamufladoVerde">
+			
+			Esse codigo é contrlado pela função controlador agora
+			logo no final dessa página dentro da Tag script
+
 			<div class="tituloBarra mx-auto" id="tituloPagina">
 				<h1>ASDFG</h1>
 				<img id="logoTGMenu" src="img/divisas/menuArmas/6.jpg" alt="">
 			</div>
+		</nav-->
+		<nav class="navbar navbar-dark pt-0 mt-0 corCamufladoVerde">
+			<div class="tituloBarra mx-auto" id="tituloPagina">
+			</div>
 		</nav>
 		
-		<!-------------------------------nave onde tem o botao dropdown--------------------------------------->
+		<!--====================== Nave Onde tem o Botão Dropdown ========================-->
 		<nav class="navbar navbar-dark corCamufladoVerde">
 			<button class="navbar-toggler mb-1 ml-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -93,38 +101,14 @@
 
 	<section class="container" id="mesa">
 		<!--opcoes do menu-->
-		<div class="container text-center p-5 mt-5 px-0">
-			<div class="row">
-				<div class="col-4">
-					<figure class="figure">
-						<img src="img/divisas/menuArmas/1.jpg" class="figure-img img-fluid rounded" alt="...">
-						<figcaption class="figure-caption"></figcaption>
-				  </figure>
-				</div>
-				<div class="col-4">MÚsicas Oficiais</div>
-				<div class="col-4">Canções TFM</div>
-			</div>
-		</div>
-
-		<div class="container text-center p-5">
-		<div class="row">
-			<div class="col-4">Toques de Corneta</div>
-			<div class="col-4">Carreira Militar</div>
-			<div class="col-4">Dicionário de Gírias</div>
-		</div>
-		</div>
-
-		<div class="container text-center p-5">
-		<div class="row">
-			<div class="col-4">O que é o TG</div>
-			<div class="col-4">Bússola</div>
-		</div>
-		</div>
-		<nav class="navbar navbar-dark corCamufladoVerde p-5 mt-5" width="70" height="70">
-			<a class="navbar-brand mx-auto" href="#">LINK</a>
-		</nav>
+		
 	</section>
-  <!--Bibliotecas-->
+
+	<footer class="navbar navbar-dark corCamufladoVerde p-5 mt-5" width="70" height="70">
+		<a class="navbar-brand mx-auto " href="#">LINK</a>
+	</footer>
+
+  <!--=====================  Arquivos JavaScripts =======================-->
 	<!-- Componentes-->
  		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
@@ -134,27 +118,49 @@
 		<script type="text/javascript" src="js/conteudo/menuInstruções.js"></script>
 		<script type="text/javascript" src="js/conteudo/aqs.js"></script>
 		<script type="text/javascript" src="js/conteudo/intensMenuPrincipal.js"></script>
+		<script type="text/javascript" src="js/conteudo/armas_quadros_servicos.js"></script>
 
 	<!-- Biblioteca e Phonegap -->
 		<script src="js/jquery-3.3.1.slim.min.js"></script>
 		<script src="js/popper.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/sidebar.js"></script>
+		
+		<!--=============== Códigos Importantes para Inicialização =================-->
 		<script type="text/javascript">
 			app.initialize();
 
 			//Variaveis Globais
 			var mesa = document.getElementById('mesa');
 			var titulo = document.getElementById('tituloPagina');
+			var hstNav = [];
 
 			//Procedimento que muda o titulo e a tela
-			function controlador(conteudo, tituloNovo){
+			function controlador(conteudo, tituloNovo, isBacking){
 				mesa.innerHTML = conteudo;
-				titulo.innerHTML = tituloNovo!=undefined?tituloNovo:'';
+				tituloNovo = tituloNovo!=undefined?tituloNovo:''
+				titulo.innerHTML = tituloNovo;
+				
+				if(!(isBacking==true))
+					hstNav.push([conteudo, tituloNovo]);
+				
 			}
 
-			controlador(menuGradeMistaContrutor(itensMenuPrincipal), itensMenuPrincipalTitulo);
+			//Criação aultomatica do menu principal
+			function mainMenu(){
+				controlador(menuGradeMistaContrutor(itensMenuPrincipal), itensMenuPrincipalTitulo);
+			}
+			mainMenu();
+
+			function backScreem(){
+				if (!(hstNav.length==1)){
+					hstNav.pop();
+				}
+
+				controlador(hstNav[hstNav.length-1][0], hstNav[hstNav.length-1][1], true);
+			}
+			
 		</script>
-		<script type="text/javascript" src="js/sidebar.js"></script>
 </body>
 
 </html>

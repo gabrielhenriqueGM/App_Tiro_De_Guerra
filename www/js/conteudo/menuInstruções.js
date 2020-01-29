@@ -1,42 +1,63 @@
+var menuInstrucaoTitulo = 'Intruções';
 var menuInstrucao = [
     {
-        titulo: 'QEM',
-        src: '\\img\\divisas\\menuArmas\\1.jpg',
-        link: 'quadro[1].txt'     
+        titulo: 'Armas, Quadros e Serviços',
+        src: '',
+        link: "menuGradeMistaContrutor(armaQuadroServico, 'img')"     
     },
     {
-        titulo: 'QCO',
-        src: '\\img\\divisas\\menuArmas\\2.jpg',
-        link: 'quadro[3].txt'     
+        titulo: 'Patronos do Exercito',
+        src: '',
+        link: ''     
     },
     {
-        titulo: 'Saude',
-        src: '\\img\\divisas\\menuArmas\\3.jpg',
-        link: 'servico[1].txt'     
+        titulo: 'Carta e Orientação',
+        src: '',
+        link: ''     
     },
     {
-        titulo: 'Cavalaria',
-        src: '\\img\\divisas\\menuArmas\\4.jpg',
-        link: 'arma[1].txt'      
+        titulo: 'Luzes e Ruido',
+        src: '',
+        link: ''      
     },
     {
-        titulo: 'Artilharia',
-        src: '\\img\\divisas\\menuArmas\\5.jpg',
-        link: 'arma[2].txt'      
+        titulo: 'Sobrevivencia',
+        src: '',
+        link: ''      
     },
     {
-        titulo: 'Comunicações',
-        src: '\\img\\divisas\\menuArmas\\6.jpg',
-        link: 'arma[4].txt'      
+        titulo: 'IPT',
+        src: '',
+        link: ''      
     },
     {
-        titulo: 'Infantaria',
-        src: '\\img\\divisas\\menuArmas\\7.jpg',
-        link: 'arma[0].txt'      
+        titulo: 'Postos e Graduações',
+        src: '',
+        link: ''      
     },
     {
-        titulo: 'Engenharia',
-        src: '\\img\\divisas\\menuArmas\\8.jpg',
-        link: 'arma[3].txt'      
+        titulo: 'Progreção em Combate',
+        src: '',
+        link: ''      
+    },
+    {
+        titulo: 'Marcha e Estacionamentos',
+        src: '',
+        link: ''      
+    },
+    {
+        titulo: 'Símbolo Nacionais',
+        src: '',
+        link: ''      
+    },
+    {
+        titulo: 'TFM',
+        src: '',
+        link: ''      
+    },
+    {
+        titulo: '',
+        src: '',
+        link: ''      
     }
 ]
