@@ -1,4 +1,4 @@
-menuInstrucao = [
+var menuInstrucao = [
     {
         titulo: 'QEM',
         src: '\\img\\divisas\\menuArmas\\1.jpg',
