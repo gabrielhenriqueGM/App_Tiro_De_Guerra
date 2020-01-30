@@ -1,13 +1,13 @@
 function menuGradeMistaContrutor(items, tipo){
-    component = '<div class="container text-center p-5">';
-    component += '<div class="row">';
+    component = '<div class="text-center p-5">';
+    component += '<div class="row rowCorrecao">';
     for (var i in items) {
         if (i%3===0 && i!=0) {
             component += `</div>
             </div>
         
-            <div class="container text-center p-5">
-                <div class="row">`;
+            <div class="text-center p-5">
+                <div class="row rowCorrecao">`;
         }
 
         //No onclick deve ser colocado a funcao que chamará o conteudo e mudara a tela em um novo componente
@@ -17,7 +17,7 @@ function menuGradeMistaContrutor(items, tipo){
             case 'img':
                 component += 
                     `<figure class="figure">
-                        <img src="` + items[i].src + `" class="figure-img img-fluid rounded" alt="...">
+                        <img src="` + items[i].src + `" class="figure-img img-fluid rounded imgIconeMesa" alt="...">
                         <figcaption class="figure-caption">` + items[i].titulo + `</figcaption>
                     </figure>`
                 break;
