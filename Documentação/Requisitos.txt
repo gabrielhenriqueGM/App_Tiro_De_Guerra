@@ -60,6 +60,7 @@ Requisitos Não Funcionais
 		RNF06.6 - Dicionário Bizu. (Dicionários das palavras usadas. Ex.: Sanhaço, Bizu, Monstro, Mocorongo, ...)
 		RNF06.7 - O que é o Tiro de Guerra.
 		RNF06.8 - Bússola?.
+		RNF06.9 - Bizú do Antigão
 
 	RNF07 - O sistem deve possuir link's para as midias sociais oficiais do EB.
 
