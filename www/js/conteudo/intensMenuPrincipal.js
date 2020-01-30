@@ -14,41 +14,41 @@ var itensMenuPrincipal = [
     {
         titulo: 'Música Oficiais',
         src: '',
-        link: ''     
+        link: ''
     },
     {
         titulo: 'Canções TFM',
         src: '',
-        link: ''     
+        link: ''
     },
     {
         titulo: 'Toques de Corneta',
         src: '',
-        link: ''     
+        link: ''
     },
     {
         titulo: 'Carreira Militar',
         src: '',
-        link: ''     
+        link: ''
     },
     {
         titulo: 'Dicionário de Gírias Militar',
         src: '',
-        link: ''     
+        link: ''
     },
     {
         titulo: 'O que é o TG',
         src: '',
-        link: ''     
+        link: ''
     },
     {
         titulo: 'Bússola',
         src: '',
-        link: ''     
+        link: ''
     },
     {
         titulo: 'Bizú do Antigão',
         src: '',
-        link: ''     
+        link: ''
     }
 ]

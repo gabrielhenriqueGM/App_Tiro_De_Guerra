@@ -8,9 +8,9 @@
   <meta name="msapplication-tap-highlight" content="no" />
   <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
   
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/index.css" />  
-  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css"/> 
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
   <title>TG App</title>
 </head>
 
@@ -99,7 +99,7 @@
 		</nav>    
 	</header>
 
-	<section class="container" id="mesa">
+	<section class="container containerCorrecao" id="mesa">
 		<!--opcoes do menu-->
 		
 	</section>
@@ -141,9 +141,11 @@
 				tituloNovo = tituloNovo!=undefined?tituloNovo:''
 				titulo.innerHTML = tituloNovo;
 				
+				/*Quando se está voltando é passado um flag que
+				 *está voltando para não guradar no array de historico de navegação 'hstNav'
+				 */
 				if(!(isBacking==true))
 					hstNav.push([conteudo, tituloNovo]);
-				
 			}
 
 			//Criação aultomatica do menu principal
@@ -153,9 +155,12 @@
 			mainMenu();
 
 			function backScreem(){
-				if (!(hstNav.length==1)){
+				/*Quado se esta voltando ao chegar no menu o array
+				 * deve possuir os dados da tela de menu
+				 * então não é feito a retirada do ultimo dado pelo metodo pop
+				 */
+				if (!(hstNav.length==1))
 					hstNav.pop();
-				}
 
 				controlador(hstNav[hstNav.length-1][0], hstNav[hstNav.length-1][1], true);
 			}

@@ -1,4 +1,4 @@
-function menuGradeMistaContrutor(items, tipo) {
+function menuGradeMistaContrutor(items, tipo){
     component = '<div class="container text-center p-5">';
     component += '<div class="row">';
     for (var i in items) {
@@ -11,7 +11,7 @@ function menuGradeMistaContrutor(items, tipo) {
         }
 
         //No onclick deve ser colocado a funcao que chamará o conteudo e mudara a tela em um novo componente
-        component += `<div class="col-4" onclick="controlador(`+items[i].link+`, '`+items[i].titulo+`')">`;
+        component += `<div class="col-4 bordaMenu" onclick="controlador(`+items[i].link+`, '`+items[i].titulo+`')">`;
 
         switch (tipo) {
             case 'img':
