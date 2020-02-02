@@ -48,7 +48,7 @@
     padding-bottom: 1rem;
     margin-top: -1px;
     overflow-x: auto;
-    color: rgba(255, 255, 255, .75);
+    color: rgba(12, 38, 6, .75);
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
@@ -58,14 +58,18 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
     font-size: .875rem;
-    color: #6c757d;
+    color: #2B5422;
 }
 
 .nav-underline .nav-link:hover {
-    color: #007bff;
+    color: #1E4417;
 }
 
 .nav-underline .active {
     font-weight: 500;
     color: #343a40;
+}
+
+.dropdown-menu{
+    background-color: #2B5422;
 }

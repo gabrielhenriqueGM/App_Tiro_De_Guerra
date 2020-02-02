@@ -25,11 +25,11 @@
 
 	/* Como códigos RGBa */
 
-	--rgbs-vd-0: rgba(20; 52; 13;1); /* Cor principal principal */
-	--rgbs-vd-1: rgba(43; 84; 34;1);
-	--rgbs-vd-2: rgba(30; 68; 23;1);
-	--rgbs-vd-3: rgba(12; 38; 6;1);
-	--rgbs-vd-4: rgba(6; 25; 2;1);
+	--rgbs-vd-0: rgba(20, 52, 13, 1); /* Cor principal principal */
+	--rgbs-vd-1: rgba(43, 84, 34, 1);
+	--rgbs-vd-2: rgba(30, 68, 23, 1);
+	--rgbs-vd-3: rgba(12, 38, 6, 1);
+	--rgbs-vd-4: rgba(6, 25, 2, 1);
 
 	--rgba-mr-a0: rgba(56; 14; 28;1); /* Cor do secundário principal (1) */
 	--rgba-mr-a1: rgba(90; 36; 53;1);
@@ -146,14 +146,20 @@ ul{
 	padding: 0;
 }
 
-li{
-	margin: 4px;
-	padding: 2vw 5vw;
-	background-color: yellowgreen;
+.listMenu{
+	margin-top: 3vw;
 }
 
 .listMenu li{
-	font-size: 1.5em;
+	font-size: 1.20em;
+	margin: 4px;
+	padding: 0.75em 5vw;
+	background-color: gray;
+	;
+}
+
+.listMenu span{
+	margin-right: 1em;
 }
 
 #btnShare{

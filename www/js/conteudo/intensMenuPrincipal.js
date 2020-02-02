@@ -3,52 +3,52 @@ var itensMenuPrincipalTitulo = `<img id="logoTGMenu" src="img/divisaTGmenu.jpg" 
 var itensMenuPrincipal = [
     {
         titulo: 'Instruções',
-        img: '',
-        link: "menuGradeMistaContrutor(menuInstrucao)"     
+        img: '⛺',
+        link: "menuListaContrutor(menuInstrucao)"     
     },
     {
         titulo: 'Mq 7,62 M968',
-        img: '',
+        img: '⛺',
         link: ''     
     },
     {
         titulo: 'Música Oficiais',
-        img: '',
+        img: '⛺',
         link: ''
     },
     {
         titulo: 'Canções TFM',
-        img: '',
+        img: '⛺',
         link: ''
     },
     {
         titulo: 'Toques de Corneta',
-        img: '',
+        img: '⛺',
         link: ''
     },
     {
         titulo: 'Carreira Militar',
-        img: '',
+        img: '⛺',
         link: ''
     },
     {
         titulo: 'Dicionário de Gírias Militar',
-        img: '',
+        img: '⛺',
         link: ''
     },
     {
         titulo: 'O que é o TG',
-        img: '',
+        img: '⛺',
         link: ''
     },
     {
         titulo: 'Bússola',
-        img: '',
+        img: '⛺',
         link: ''
     },
     {
         titulo: 'Bizú do Antigão',
-        img: '',
+        img: '⛺',
         link: ''
     }
 ]
