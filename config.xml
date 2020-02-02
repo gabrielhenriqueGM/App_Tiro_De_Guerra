@@ -3,6 +3,7 @@
   <description>Aplicativo de infomação sobre o Tiro de Guerra, Organização Militar</description>
   <author href="http://phonegap.com" email="gabrielcosta.tads@gmail.com">PhoneGap Team, Gabriel Henrique e Gabriel Pimentel</author>
   <content src="index.html"/>
+  <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
   <preference name="DisallowOverscroll" value="true"/>
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4"/>
   <plugin name="cordova-plugin-camera" source="npm" spec="~2.4.1"/>
