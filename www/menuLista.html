@@ -67,16 +67,17 @@
 			<div class="tituloBarra mx-auto" id="tituloPagina">
 			</div>
 		</nav>
-		
-		<div id="btnShare">
+
+        <!--icon de compartilhar o app-->
+        <div id="btnShare">
 			<!--icon de compartilhar o app-->
 			<a target="_blank" href="https://api.whatsapp.com/send?text=Aqui%20deve%20estar%20o%20link%20de%20compartilhamento"><img src="img/share.png" width="30" height="30"></a>
-		</div>    
+		</div>
+		</nav>    
 	</header>
 
 	<section class="containerCorrecao" id="mesa">
-		
-		
+              
 	</section>
 
 	<footer class="navbar navbar-dark corCamufladoVerde p-5 mt-5" width="70" height="70">
@@ -88,6 +89,7 @@
  		<script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 		<script type="text/javascript" src="js/componentes/menuGradeMistaContrutor.js"></script>
+        <script type="text/javascript" src="js/componentes/menuListaContrutor.js"></script>
 
 	<!-- Dados -->
 		<script type="text/javascript" src="js/conteudo/menuInstrucoes.js"></script>
@@ -125,7 +127,7 @@
 
 			//Criação aultomatica do menu principal
 			function mainMenu(){
-				controlador(menuGradeMistaContrutor(itensMenuPrincipal), itensMenuPrincipalTitulo);
+				controlador(menuListaContrutor(itensMenuPrincipal), itensMenuPrincipalTitulo);
 			}
 			mainMenu();
 

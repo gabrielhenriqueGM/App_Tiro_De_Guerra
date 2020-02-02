@@ -140,3 +140,24 @@ p:first-child{
 .paddingDiv{
 	padding: 2rem 1rem;
 }
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	margin: 4px;
+	padding: 2vw 5vw;
+	background-color: yellowgreen;
+}
+
+.listMenu li{
+	font-size: 1.5em;
+}
+
+#btnShare{
+	display: inline-flex;
+	right: 12em;
+	margin: 1em;
+}

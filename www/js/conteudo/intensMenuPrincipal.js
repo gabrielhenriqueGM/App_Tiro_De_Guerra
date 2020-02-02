@@ -1,54 +1,54 @@
-var itensMenuPrincipalTitulo = `<img id="logoTGMenu" src="img/organization_logo.gif" width="70" height="70" alt="">`;
+var itensMenuPrincipalTitulo = `<img id="logoTGMenu" src="img/divisaTGmenu.jpg" width="70" height="70" alt="">`;
 
 var itensMenuPrincipal = [
     {
         titulo: 'Instruções',
-        src: '',
+        img: '',
         link: "menuGradeMistaContrutor(menuInstrucao)"     
     },
     {
         titulo: 'Mq 7,62 M968',
-        src: '',
+        img: '',
         link: ''     
     },
     {
         titulo: 'Música Oficiais',
-        src: '',
+        img: '',
         link: ''
     },
     {
         titulo: 'Canções TFM',
-        src: '',
+        img: '',
         link: ''
     },
     {
         titulo: 'Toques de Corneta',
-        src: '',
+        img: '',
         link: ''
     },
     {
         titulo: 'Carreira Militar',
-        src: '',
+        img: '',
         link: ''
     },
     {
         titulo: 'Dicionário de Gírias Militar',
-        src: '',
+        img: '',
         link: ''
     },
     {
         titulo: 'O que é o TG',
-        src: '',
+        img: '',
         link: ''
     },
     {
         titulo: 'Bússola',
-        src: '',
+        img: '',
         link: ''
     },
     {
         titulo: 'Bizú do Antigão',
-        src: '',
+        img: '',
         link: ''
     }
 ]
