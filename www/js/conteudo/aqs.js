@@ -2,7 +2,7 @@ var arma = [
 	{
 		tipo: 'arma',
 		titulo: 'Infantaria',
-		iconeSrc: 'img/armas/infantaria.png',
+		iconeSrc: 'img\\armas\\infantaria.jpg',
 		txt: `<p>
 		A Infantaria tem como característica essencial a aptidão para combater a pé, em todos os tipos de terreno e sob quaisquer condições meteorológicas, podendo utilizar variados meios de transporte. Uma de suas missões é conquistar e manter o terreno, aproveitando a capacidade do infante de progredir em pequenas frações, difíceis de serem detectadas em todos os tipos de terreno. Isso permite que ele se aproxime do inimigo para travar o combate corpo-a-corpo. A Infantaria poderá ter especializações das mais diversas: motorizada, blindada, Paraquedista, leve, de selva, de caatinga, de montanha, de guardas e de polícia.
 		</p>
@@ -32,7 +32,7 @@ var arma = [
 	{
 		tipo: 'arma',
 		titulo: 'Cavalaria',
-		iconeSrc: 'img/armas/cavalaria.png',
+		iconeSrc: 'img\\armas\\cavalaria.jpg',
 		txt: `<p>
 			A Cavalaria, no início das operações, é empregada à frente dos demais integrantes da Força Terrestre, na busca de informações sobre o inimigo e sobre a região de operações. Participa de ações ofensivas e defensivas, aplicando suas características básicas: mobilidade, potência de fogo, ação de choque, proteção blindada e sistema de comunicações amplo e flexível. Seus elementos podem ser blindados, mecanizados e de guardas. Participa do cerimonial com escoltas mecanizadas e a cavalo.
 		</p>
@@ -58,7 +58,7 @@ var arma = [
 	{
 		tipo: 'arma',
 		titulo: 'Artilharia',
-		iconeSrc: 'img/armas/artilharia.png',
+		iconeSrc: 'img\\armas\\artilharia.jpg',
 		txt: `<p>
 			A Artilharia de Campanha é o principal meio de apoio de fogo da Força Terrestre. Suas unidades e subunidades podem ser dotadas de canhões, obuses, foguetes ou mísseis. Tem por missão apoiar a arma-base pelo fogo, destruindo ou neutralizando os alvos que ameacem o êxito da operação. A artilharia antiaérea, componente terrestre da defesa aeroespacial ativa, realiza a defesa antiaérea de forças, instalações ou áreas. A artilharia de costa participa da defesa contra operações navais inimigas em áreas marítimas próximas ao litoral ou em águas interiores. Suas características são a precisão e a rapidez, para destruir ou neutralizar as instalações, os equipamentos e as tropas inimigas localizadas em profundidade no campo de batalha.
 		</p>
@@ -84,7 +84,7 @@ var arma = [
 	{
 		tipo: 'arma',
 		titulo: 'Engenharia',
-		iconeSrc: 'img/armas/engenharia.png',
+		iconeSrc: 'img\\armas\\engenharia.jpg',
 		txt: `<p>
 			A Engenharia divide-se em duas vertentes: de combate e de construção. A de combate apoia as armas-base, facilitando o deslocamento das tropas amigas, reparando estradas, pontes e eliminando os obstáculos à progressão e, ainda, dificultando o movimento do inimigo. Uma operação de grande envergadura, e que depende diretamente da Engenharia, é a transposição de cursos de água obstáculo. A Engenharia de Construção, em tempo de paz, colabora com o desenvolvimento nacional, construindo estradas de rodagem, ferrovias, pontes, açudes, barragens, poços artesianos e inúmeras outras obras.
 		</p>
@@ -110,7 +110,7 @@ var arma = [
 	{
 		tipo: 'arma',
 		titulo: 'Comunicações',
-		iconeSrc: 'img/armas/comunicacoes.png',
+		iconeSrc: 'img\\armas\\comunicacoes.jpg',
 		txt: `<p>
 			As Comunicações – a Arma do Comando – proporcionam as ligações necessárias aos escalões mais altos que exercerão a coordenação e o controle de seus elementos subordinados antes, durante e após as operações. Além disso, atua no controle do espectro eletromagnético, por meio das atividades de Guerra Eletrônica, para impedir ou dificultar as comunicações do inimigo, facilitar as próprias comunicações e obter informações.
 		</p>
@@ -131,7 +131,7 @@ var quadro = [
 		tipo: 'Quadro',
 		titulo: 'Material Bélico',
 		sigla: 'QMB',
-		iconeSrc: 'img/armas/material_belico.png',
+		iconeSrc: 'img\\armas\\material_belico.jpg',
 		txt: `<p>
 			O Quadro de Material Bélico realiza o apoio logístico voltado para a manutenção do material bélico, principalmente, os armamentos, as viaturas e as aeronaves. Inclui-se aí, o suprimento de peças e conjuntos de reparação destinados a esses materiais. Cuida ainda, do suprimento de combustíveis, óleos, graxas e lubrificantes para motores e máquinas.
 		</p>
@@ -194,7 +194,7 @@ var quadro = [
 		tipo: 'Quadro',
 		titulo: 'Engenheiros Militares',
 		sigla: 'QEM',
-		iconeSrc: 'img/armas/qem.jpg',
+		iconeSrc: 'img\\armas\\qem.jpg',
 		txt: `<p>
 			O Quadro de Engenheiros Militares (QEM) é formado pelos oficiais que cursaram o Instituto Militar de Engenharia. Possui diversas especialidades como: cartografia, computação, comunicações, eletricidade, eletrônica, fortificação e construção, materiais, mecânica de automóvel, armamento e química. O oficial do QEM realiza trabalhos técnicos, dentro de suas especialidades, em diversos órgãos e instituições.
 		</p>
@@ -221,7 +221,7 @@ var quadro = [
 		tipo: 'Quadro',
 		titulo: 'Auxiliar de Oficiais',
 		sigla: 'QAO',
-		iconeSrc: 'img/armas/qao.png',
+		iconeSrc: 'img\\armas\\qao.jpg',
 		txt: `<p>
 			O Quadro Auxiliar de Oficiais (QAO) é formado por militares que atingiram o oficialato após uma carreira como sargentos e subtenentes. Ascendendo ao posto de 2º tenente por merecimento, poderão continuar até capitão. Por seu valor e experiência na Força, desempenham funções de chefia, de assessoramento e de confiança nas organizações militares.
 		</p>
@@ -248,7 +248,7 @@ var quadro = [
 		tipo: 'Quadro',
 		titulo: 'Complementar de Oficiais',
 		sigla: 'QCO',
-		iconeSrc: 'img/armas/qco.png',
+		iconeSrc: 'img\\armas\\qco.jpg',
 		txt: `<p>
 			O Quadro Complementar de Oficiais (QCO) é composto por oficiais com curso superior, realizado em universidades civis, em diferentes áreas do conhecimento e especializações técnicas necessárias ao Exército. Esses oficiais são formados na Escola de Formação Complementar do Exército, que matricula anualmente quase uma centena de alunos.
 		</p>
@@ -269,7 +269,7 @@ var servico = [
 		tipo: 'Serviço',
 		titulo: 'Assistência Religiosa',
 		sigla: 'SAREx',
-		iconeSrc: 'img/armas/sarex.png',
+		iconeSrc: 'img\\armas\\sarex.jpg',
 		txt: `<p>
 			O Serviço de Assistência Religiosa (SAREx) é formado por ministros das religiões católica e evangélica. Os padres e pastores integram o Quadro de Capelães Militares, após um estágio de adaptação iniciado na Escola de Administração do Exército e concluído em diversas organizações militares. Iniciando a carreira como 2º tenente, podem atingir até o posto de coronel.
 		</p>
@@ -296,7 +296,7 @@ var servico = [
 		tipo: 'Serviço',
 		titulo: 'Saúde',
 		sigla: '',
-		iconeSrc: 'img/armas/.png',
+		iconeSrc: 'img\\armas\\servico_saude.png',
 		txt: `<p>
 			O Serviço de Saúde do Exército Brasileiro está presente de norte a sul do Brasil, provendo o apoio à família militar e à população brasileira em geral nos mais distantes rincões do País. A seguir, você encontrará informações importantes sobre o Serviço de Saúde, seu trabalho e o importante apoio que os soldados do corpo de saúde prestam pelo país afora.
 		</p>
@@ -308,7 +308,7 @@ var servico = [
 		tipo: 'Serviço',
 		titulo: 'Intendencia',
 		sigla: '',
-		iconeSrc: 'img/armas/intendencia.png',
+		iconeSrc: 'img\\armas\\intendencia.jpg',
 		txt: `<p>
 			O Serviço de Intendência é a parte da logística voltada para as atividades de suprimento. Ele distribui o material de intendência (uniformes, equipamentos individuais, etc) e os diversos tipos de munição e de gêneros alimentícios. Proporciona também, em operações, outros serviços como lavanderia e banho. Nas organizações militares os intendentes assessoram os comandantes na administração financeira e na contabilidade.
 		</p>

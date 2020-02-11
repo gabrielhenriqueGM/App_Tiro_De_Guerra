@@ -1,3 +1,8 @@
 function conteudoTexto(obj) {
-    return obj.txt;
+    let resp = `<div id="containerImg">
+        <img id="imgCentralTexto" src="`+obj.iconeSrc+`"/>
+    </div>`;
+    resp += obj.txt;
+    
+    return resp;
 }
