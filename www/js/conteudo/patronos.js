@@ -1,4 +1,4 @@
-var armaQuadroServico = [
+var patrono = [
     {
         titulo: 'QEM',
         src: 'img\\divisas\\menuArmas\\1.jpg',
