@@ -2,57 +2,57 @@ var menuInstrucaoTitulo = 'Intruções';
 var menuInstrucao = [
     {
         titulo: 'Armas, Quadros e Serviços',
-        img: 'null',
+        img: '',
         link: "menuGradeMistaContrutor(armaQuadroServico, 'img')"     
     },
     {
         titulo: 'Patronos do Exercito',
-        img: 'null',
-        link: ''     
+        img: '',
+        link: 'menuListaContrutor(patrono)'     
     },
     {
         titulo: 'Carta e Orientação',
-        img: 'null',
+        img: '',
         link: ''     
     },
     {
         titulo: 'Luzes e Ruido',
-        img: 'null',
+        img: '',
         link: ''      
     },
     {
         titulo: 'Sobrevivencia',
-        img: 'null',
+        img: '',
         link: ''      
     },
     {
         titulo: 'IPT',
-        img: 'null',
+        img: '',
         link: ''      
     },
     {
         titulo: 'Postos e Graduações',
-        img: 'null',
+        img: '',
         link: ''      
     },
     {
         titulo: 'Progreção em Combate',
-        img: 'null',
+        img: '',
         link: ''      
     },
     {
         titulo: 'Marcha e Estacionamentos',
-        img: 'null',
+        img: '',
         link: ''      
     },
     {
         titulo: 'Símbolo Nacionais',
-        img: 'null',
+        img: '',
         link: ''      
     },
     {
         titulo: 'TFM',
-        img: 'null',
+        img: '',
         link: ''      
     }
 ]

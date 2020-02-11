@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
-  <name>App_Tiro_De_Guerra</name>
+  <name>App_TG</name>
   <description>Aplicativo de infomação sobre o Tiro de Guerra, Organização Militar</description>
   <author href="http://phonegap.com" email="gabrielcosta.tads@gmail.com">PhoneGap Team, Gabriel Henrique e Gabriel Pimentel</author>
   <content src="index.html"/>
@@ -89,6 +89,7 @@
   <access origin="*"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
+  <allow-intent href="https://api.whatsapp.com"/>
   <allow-intent href="tel:*"/>
   <allow-intent href="sms:*"/>
   <allow-intent href="mailto:*"/>
