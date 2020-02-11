@@ -90,8 +90,7 @@ body{
 }
 
 
-/*Falta configurar um tamanho padrão para as img do menu
-*/
+/*Configura um tamanho padrão para as img do menu*/
 .maxImgTitulo{
 	max-width:200px;
     max-height:150px;
@@ -106,6 +105,7 @@ body{
 	align-items: center;
 }
 
+/*
 .containerCorrecao{
 	text-align: center;
 	margin: auto 5vw;
@@ -121,6 +121,7 @@ body{
 	text-align: center;
 	margin: 0 auto;
 }
+*/
 
 p{
 	text-align: justify;
@@ -166,4 +167,9 @@ ul{
 	display: inline-flex;
 	right: 12em;
 	margin: 1em;
+}
+
+.bordaMenu *{
+	width: 20vw;
+	text-align: center;
 }

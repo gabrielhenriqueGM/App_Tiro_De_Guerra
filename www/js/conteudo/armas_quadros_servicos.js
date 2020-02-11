@@ -7,7 +7,7 @@ var armaQuadroServico = [
     {
         titulo: 'QCO',
         src: 'img\\divisas\\menuArmas\\2.jpg',
-        link: 'quadro[3].txt'     
+        link: 'quadro[3].txt'    
     },
     {
         titulo: 'Saude',
